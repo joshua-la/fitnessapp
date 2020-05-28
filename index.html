@@ -2,9 +2,97 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>BSJ FITNESS COMPANY</title>
+    <link rel="stylesheet" type="text/css"href="style.css" 
+    >
+    <link href="https://stackpath.bootstrapcdn.com/
+    font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
   </head>
   <body>
-    be
+    <header>
+      <a href="#" class="logo">BSJ</a>
+      <div class="menu-toggle"></div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="Classes.html">Classes</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li>
+          <li><a href="Membership Login">Login</a></li>
+          <li><a href="Testimonials">Testimonials</a></li>
+          <li><a href="Registration">Register</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+    </header>
+    <div class="section">
+      <video autoplay loop muted>
+        <source src="sean.mp4" type="video/mp4">
+      </video>
+    </div>
+  
+  <div class="footer">
+    <div class="inner-footer">
+
+      <div class="footer-items">
+        <h2>Services</h2>
+        <div class="border"></div>
+        <ul>
+          <a href=""><li>Class1</li></a>
+          <a href=""><li>Class2</li></a>
+          <a href=""><li>Class3</li></a>
+          <a href=""><li>Class4</li></a>
+          <a href=""><li>Class5</li></a>
+          <a href=""><li>Class6</li></a>
+        </ul>
+      </div>
+    <div class="footer-items">
+      <h2>Company</h2>
+      <div class="border"></div>
+      <ul>
+        <a href=""><li>About Us</li></a>
+          <a href=""><li>Terms & Condition</li></a>
+          <a href=""><li>Contact Us</li></a>
+      </ul>
+    </div>
+    <div class="footer-items">
+      <h2>Support</h2>
+      <div class="border"></div>
+      <div class="social-media">
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-intsgram" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-phone" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-email" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="footer-items">
+      <h2>Contact</h2>
+        <p>Apt97, College View, Ballymun. Dublin11</p>
+    </div>
+
+    <div class="footer-bottom">
+      copyright &copy;2020 All rights reserved.
+    </div>
+
+
+
+
+    </div>
+  </div>
+  <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+              $('.menu-toggle').toggleClass('active')
+              $('nav').toggleClass('active')
+            })
+          })
+        </script>
   </body>
 </html>
+
